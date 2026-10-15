@@ -8,11 +8,13 @@ export const AUTHOR = 'BY ANAY PATEL';
 
 export const RELEASE_LINE = 'Only in theatres 2026';
 
+const BASE = import.meta.env.BASE_URL || '/';
+
 export const HERO = {
   name: HERO_NAME,
   actor: 'Vidyut Jammwal',
-  image: '/media/img/dhailsm-live-action.jpg',
-  gameArt: '/media/img/dhailsm-game-art.jpg',
+  image: `${BASE}media/img/dhailsm-live-action.jpg`,
+  gameArt: `${BASE}media/img/dhailsm-game-art.jpg`,
   width: 736,
   height: 920,
   face: '50% 29%',
@@ -21,11 +23,11 @@ export const HERO = {
 // Opponents for the versus screen, in the order they appear in the roster.
 // `face` is the focal point used for tight crops; `frame` positions the full poster.
 export const OPPONENTS = [
-  { id: 'ken', name: 'Ken', actor: 'Noah Centineo', image: '/media/img/ken.jpg', width: 735, height: 913, face: '60% 19%', frame: '50% 20%' },
-  { id: 'guile', name: 'Guile', actor: 'Cody Rhodes', image: '/media/img/guile.jpg', width: 735, height: 917, face: '54% 25%', frame: '50% 20%' },
-  { id: 'm-bison', name: 'M. Bison', actor: 'David Dastmalchian', image: '/media/img/m-bison.jpg', width: 735, height: 921, face: '50% 15%', frame: '50% 10%' },
+  { id: 'ken', name: 'Ken', actor: 'Noah Centineo', image: `${BASE}media/img/ken.jpg`, width: 735, height: 913, face: '60% 19%', frame: '50% 20%' },
+  { id: 'guile', name: 'Guile', actor: 'Cody Rhodes', image: `${BASE}media/img/guile.jpg`, width: 735, height: 917, face: '54% 25%', frame: '50% 20%' },
+  { id: 'm-bison', name: 'M. Bison', actor: 'David Dastmalchian', image: `${BASE}media/img/m-bison.jpg`, width: 735, height: 921, face: '50% 15%', frame: '50% 10%' },
   // 9:16 poster with a generator watermark in the bottom-right corner: always framed from the top
-  { id: 'zangief', name: 'Zangief', actor: 'Olivier Richters', image: '/media/img/zangief.jpg', width: 900, height: 1600, face: '50% 17%', frame: '50% 0%' },
+  { id: 'zangief', name: 'Zangief', actor: 'Olivier Richters', image: `${BASE}media/img/zangief.jpg`, width: 900, height: 1600, face: '50% 17%', frame: '50% 0%' },
 ];
 
 // Web encodes built by scripts/encode-media.sh. Widths are the encoded pixel widths.

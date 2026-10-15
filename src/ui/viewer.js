@@ -31,7 +31,9 @@ export function initViewer({ scroller }) {
       });
     } else {
       const img = new Image();
-      img.src = item.dataset.src;
+      const raw = item.dataset.src || '';
+      const base = import.meta.env.BASE_URL || '/';
+      img.src = raw.startsWith('http') || raw.startsWith(base) ? raw : `${base}${raw.replace(/^\//, '')}`;
       img.alt = qs('img', item)?.alt ?? '';
       stage.append(img);
     }
