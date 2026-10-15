@@ -1,6 +1,6 @@
-# Street Fighter: DHAILSM
+# Street Fighter: DHAILSM — BY ANAY PATEL
 
-An interactive, cinematic one-page experience built from the supplied posters, game art and footage. DHAILSM is the protagonist throughout.
+An interactive, cinematic one-page experience customized by **ANAY PATEL**, built from the supplied posters, game art and footage. DHAILSM is the protagonist throughout.
 
 ## Run it
 

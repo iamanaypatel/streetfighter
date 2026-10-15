@@ -8,7 +8,7 @@ import { tornMask } from '../lib/shapes.js';
 export function applyCopy() {
   qsa('[data-hero-name]').forEach((el) => (el.textContent = HERO_NAME));
   qsa('[data-release-line]').forEach((el) => (el.textContent = RELEASE_LINE));
-  document.title = `Street Fighter: ${HERO_NAME}`;
+  document.title = `Street Fighter: ${HERO_NAME} — BY ANAY PATEL`;
   qs('#intro-video').setAttribute(
     'aria-label',
     `Player select screen landing on ${HERO_NAME}, then a cut to ${HERO_NAME} in a neon-lit club`,

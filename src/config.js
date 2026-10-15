@@ -4,6 +4,7 @@
 // The posters and opening video spell the name "DHALSIM". The brief asks for "DHAILSM";
 // change it here and every heading, label and aria-label follows.
 export const HERO_NAME = 'DHAILSM';
+export const AUTHOR = 'BY ANAY PATEL';
 
 export const RELEASE_LINE = 'Only in theatres 2026';
 

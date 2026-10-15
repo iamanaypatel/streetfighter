@@ -2,6 +2,7 @@
   "name": "street-fighter-dhailsm",
   "private": true,
   "version": "1.0.0",
+  "author": "ANAY PATEL",
   "type": "module",
   "scripts": {
     "dev": "vite",
